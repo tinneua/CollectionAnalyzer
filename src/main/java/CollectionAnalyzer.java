@@ -12,7 +12,7 @@ public class CollectionAnalyzer {
         Printer.printToFile(temp, fileName, dir);
     }
 
-    public Map<Object, Row> launchAnalyzer(int size) {
+    private Map<Object, Row> launchAnalyzer(int size) {
 
         List<Integer> testArrayList = new ArrayList<>();
         List<Integer> testLinkedList = new LinkedList<>();
